@@ -1,0 +1,22 @@
+# Downloaded BIOS packages, cached installers, and offline index (keep empty folder)
+cache/*
+!cache/.gitkeep
+
+# Bench execution logs, WINUPTP logs, diagnostics, and CSV history (keep empty folder)
+logs/*
+!logs/.gitkeep
+
+# Transient state, logs, archives, and firmware binaries
+resume-state.json
+*.log
+*.csv
+*.exe
+*.zip
+*.img
+*.bin
+*.bak
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
